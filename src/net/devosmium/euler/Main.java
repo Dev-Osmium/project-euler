@@ -10,6 +10,8 @@ public class Main {
         switch (problemNo) {
             case "1":
                 new problem1().solution();
+            case "2":
+                new problem2().solution();
         }
     }
     
