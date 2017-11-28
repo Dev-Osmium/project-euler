@@ -6,10 +6,12 @@ package net.devosmium.euler;
  */
 public class problem1 {
     public static void solution() {
-    for (int i=0; i<1001; i++) {
-        int divby3 = i/3;
-        int divby5 = i/5;
-    }
+    int product = 0;
+        for (int i = 0; i < 1000; i++) {
+			if (i % 3 == 0 || i % 5 == 0)
+				product += i;
+		}
+		System.out.println(Integer.toString(product));
     }
 
 
